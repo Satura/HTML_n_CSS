@@ -3,119 +3,156 @@
 
     <head>
         <meta charset="utf-8">
-        <title>HTML&CSS HW-1</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML&CSS HW</title>
         <link rel="icon" href="./src/favicon.png" type="image/x-icon">
+        <link rel="stylesheet" href="./src/style.css">
 
     </head>
     
-    <body>
+    <body>       
         <aside>
             <nav>
-                <a href="#job">Работа</a>
-                <a href="#edu">Образование</a>
-                <a href="#projects">Проекты</a>
-                <a href="#contacts">Контакты</a>
+                <p><a href="#about">О себе</a></p>
+                <p><a href="#edu">Образование</a></p>
+                <p><a href="#projects">Проекты</a></p>
+                <p><a href="#job">Работа</a></p>
             </nav>
+            <div class="contacts_nav">
+                <li class="contact"><a href="https://www.linkedin.com/in/anastasiya-svitavskaya-573a4a248/" target="_blank"><img src="./src/linkedin(2).png" height="24"></a></li> 
+                <li class="contact"><a href="https://career.habr.com/svitavskaya_a" target="_blank"><img src="./src/habr(1).svg" height="24"></a> </li>
+                <li class="contact"><a href="mailto:svitavskaya.anastasiya@yandex.ru"><img src="./src/mail.png" height="24"></a></li>
+                <li class="contact"></li>
+                <li class="contact"><a href="https://t.me/Ephemera613" target="_blank"><img src="./src/tg.png" height="24"></a></li>
+                <li class="contact"></li>
+
+                </div>
         </aside>
         
-        <header><h3>Свитавская Анастасия</h3></header>
-        
-        <section id="about"><h2>О себе</h2>
-            Гражданство: <em>РФ</em>
-            <br>
-            Образование: <em>высшее</em>
-            <br>
-            Семейное положение: <em>замужем</em>
-            <p>Родилась в 1992 году на Байконуре, где живу и работаю.
-            <br>В 2008 году окончила ГБОУ "Лицей "МКШ им. В.Н. Челомея".</p>
-            <p>Имею намерение постичь профессию QA-инженера, перейти в эту сферу и переехать на большую землю.</p>
-        </section>
-        
-        <hr>
-        <section id="edu"><h2>Образование</h2>
+        <main>
+            <p><h3>Свитавская Анастасия</h3>
+                QA-engineer</p>
+            <section id="about"><h2>О себе</h2>
+                <p>Родилась в 1992 году на Байконуре, где живу и работаю.</p>
+                <p>Имею намерение постичь профессию QA-инженера, перейти в эту сферу и переехать на большую землю.</p>
+            </section>
             
-            <article><h3>МАИ</h3>
-                С 2008 по 2015 училась в Московском Авиационном Институте по специальности <b>"Вычислительные системы, комплексы и сети"</b>
-                <br>
-                Квалификация: <em>инженер-системотехник</em>
-            </article>
+            <section id="edu"><h2>Образование</h2>
+                
+                <article><h3>Московский авиационный институт</h3>
+                    С 2008 по 2015 училась в Московском Авиационном Институте по специальности <b>"Вычислительные системы, комплексы и сети"</b>
+                    <br>
+                    Квалификация: <em>инженер-системотехник</em>
+                </article>
+                
+                <article><h3>Нетология</h3>
+                    В 2021 - 2022 прошла курс "Тестировщик ПО" в Нетологии
+                    <br>В ходе обучения я приобрела навыки:
+                    <li>ручное тестирование, написание тест-кейсов, тест-дизайн</li>
+                    <li>тестирование веб-приложений, API, понимание клиент-серверного взаимодействия, работа с DevTools, Postman</li>
+                    <li>понимание работы баз данных, написание SQL-запросов</li>
+                    <li>работа с Git</li>
+                    <li>автотестирование веб-приложений на Java с использованием JUnit, Selenide</li>
+                    <li>проведение нагрузочных тестов и удобства использования</li>
+                    <li>работа с Docker и Docker Compose</li>
+                </article>
+                
+                <article><h3>MathsHub</h3>
+                    С 2023 прохожу курс "QA automation engineer" в MathsHub
+                    <br>В рамках модуля по Python написан небольшой <a href="https://github.com/Satura/Finance_Space_Bot"><strong>Telegram-бот</strong></a>
+                    <br>В рамках модуля по SQL проведен анализ датасета <a href="https://github.com/Satura/SQL_final_project/tree/main"><strong>LinkedIn Job Postings – 2023</strong></a>
+                    <br>Выполнен проект по закреплению теории тестирования и отработке написания тестовой документации, в рамках которого проведена проверка сайта <a href="https://future-group.ru"><strong>"Айти-агентство Фьюче"</strong></a>
+                    <blockquote>"создаем и развиваем сайты, сервисы и приложения"</blockquote>
+                </article>
+                
+                <article><h3>Дополнительные курсы</h3>
+                    Дополнительно прохожу курсы на платформе Stepik. 
+                    <li><a href="https://clck.ru/sbvQ4" target="_blank">«Интерактивный тренажер по SQL»</a> (Дальневосточный федеральный университет)</li>
+                    <li><a href="https://clck.ru/36aiXi" target="_blank">«Тестирование ПО: Автоматизация и Программирование. Python. Selenium»</a> (Алекс Смит)</li>
+                    <li><a href="https://clck.ru/36aiZm" target="_blank">«Тестирование ПО с нуля. Теория + Практика»</a> (Артём Русов)</li>
+    
+                </article>
             
-            <article><h3>Нетология</h3>
-                В 2021 - 2022 проходила курс "Тестировщик ПО" в Нетологии
-                <br>В ходе обучения я приобрела навыки:
-                <li>ручное тестирование, написание тест-кейсов, тест-дизайн</li>
-                <li>тестирование веб-приложений, API, понимание клиент-серверного взаимодействия, работа с DevTools, Postman</li>
-                <li>понимание работы баз данных, написание SQL-запросов</li>
-                <li>работа с Git</li>
-                <li>автотестирование веб-приложений на Java с использованием JUnit, Selenide</li>
-                <li>проведение нагрузочных тестов и удобства использования</li>
-                <li>работа с Docker и Docker Compose</li>
-            </article>
-            
-            <article><h3>MathsHub</h3>
-                С 2023 прохожу курс "QA automation engineer" в MathsHub
-                <br>В рамках модуля по Python написан небольшой <a href="https://github.com/Satura/Finance_Space_Bot"><strong>Telegram-бот</strong></a>
-                <br>В рамках модуля по SQL проведен анализ датасета <a href="https://github.com/Satura/SQL_final_project/tree/main"><strong>LinkedIn Job Postings – 2023</strong></a>
-                <br>Выполнен проект по закреплению теории тестирования и отработке написания тестовой документации, в рамках которого проведена проверка сайта <a href="https://future-group.ru"><strong>"Айти-агентство Фьюче"</strong></a>
-                <blockquote>"создаем и развиваем сайты, сервисы и приложения"</blockquote>
-            </article>
-            
-            <article><h3>Дополнительные курсы</h3>
-                Дополнительно прохожу курсы на платформе Stepik. 
-                <li><a href="https://clck.ru/sbvQ4" target="_blank">«Интерактивный тренажер по SQL»</a> (Дальневосточный федеральный университет)</li>
-                <li><a href="https://clck.ru/36aiXi" target="_blank">«Тестирование ПО: Автоматизация и Программирование. Python. Selenium»</a> (Алекс Смит)</li>
-                <li><a href="https://clck.ru/36aiZm" target="_blank">«Тестирование ПО с нуля. Теория + Практика»</a> (Артём Русов)</li>
+            </section> 
+                      
+            <section id="projects"><h2>Проекты</h2>
+                <div class="general-container">
+                    <div class="project-container">
+                        <div class="project-head"><a href="https://github.com/Satura/Coursework-IQA"><h3>Курсовая работа</h3></a></div>
+                        <div class="project-body">Составлена тестовая документация (чек-лист и тест-кейсы) на отдельные модули и функциональности тестового сайта.</div>
+    
+                    </div>
+                    <div class="project-container">
+                        <div class="project-head"><a href="https://github.com/Satura/DiplomaQA"><h3>Дипломная работа</h3></a></div>
+                        <div class="project-body">Проведена автоматизация тестирования учебного комплексного веб-сервиса, взаимодействующего с СУБД и API Банка.</div>
+                        
+                    </div>
+                    <div class="project-container">
+                        <div class="project-head"><a href="https://github.com/Satura/Finance_Space_Bot"><h3>Telegram-бот</h3></a></div>
+                        <div class="project-body">Бот для отображения различной информации о финансах и космонавтике, конвертации валют и прогноза погоды.</div>
+                    </div>
 
-            </article>
-        
-        </section> 
-        <hr>
-        
-        <section id="job"><h2>Работа</h2>
-            <article><h3>АО "ЦЭНКИ" - КЦ "Южный"</h3>
-                С 2011 по 2016 работала специалистом в АО "ЦЭНКИ" - КЦ "Южный". 
-                <br>Участвовала в запусках РКН «Зенит-2SБ» с аппаратами: "Амос-4" (2013 год) и "Электро-Л № 2" (2015 год)<>
-                <br>
-                <!-- Блок с видео нагло скопипащен с сайта Роскосмоса, только размер окошка подкорректирован -->
-                <iframe width="280" height="155" src="https://www.youtube.com/embed/h3UOI3OdCfs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe> 
-            </article>
+                    <div class="project-container">
+                        <div class="project-head"><a href="https://github.com/Satura/SQL_final_project/"><h3>Анализ датасета</h3></a></div>
+                        <div class="project-body">Проект заключается в практической работе с базами данных и языком SQL для исследования данных из открытых источников. В качестве источника выбран датасет LinkedIn Job Postings – 2023.</div>
+                    </div>
+                    
+                    <div class="project-container">
+                        <div class="project-head"><a href="https://github.com/Satura/TestTheoryProject"><h3>Тест сайта "Айти-агентства Фьюче"</h3></a></div>
+                        <div class="project-body">Разработаны и оформлены чек-листы, тест-кейсы, проведено тестирование и оформлены баг-репорты на функции, локализацию и GUI сайта.</div>
+                    </div>
+                </div>
+            </section>
             
-            <article><h3>БФ АО "РКЦ "Прогресс"</h3>
-                С 2016 года по н/в работаю в БФ АО "РКЦ "Прогресс". <br>
-                Разрабатываем планы подготовки изделий, пишем отчеты о подготовке и пусках. <br>
-                <img src="./src/soyuz_2.jpg" height="350"><br>
-                Обеспечиваем готовность наземного оборудования. 
-            </article>
-        </section>
-        <hr>
+            <section id="job"><h2>Работа</h2>
+                
+                <div class="job-general">
+                    <h4>АО "ЦЭНКИ" - КЦ "Южный"</h4>
+                    <div class="job-company">
+                        <div class="job-media media-left">
+                            <iframe width="280" height="155" src="https://www.youtube.com/embed/h3UOI3OdCfs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                        </div>
+                    
+                        <div class="job-descr"> 2011 по 2016 работала специалистом в АО "ЦЭНКИ" - КЦ "Южный". 
+                        <br>
+                        Участвовала в запусках РКН «Зенит-2SБ» с аппаратами: "Амос-4" (2013 год) и "Электро-Л № 2" (2015 год)
+                        </div>
+                        
+                    </div>
+                    <h4>БФ АО "РКЦ "Прогресс"</h4>
+                    <div class="job-company">
+                        <div class="job-descr">С 2016 года по н/в работаю в БФ АО "РКЦ "Прогресс". 
+                        <br>
+                        Разрабатываем планы подготовки изделий, пишем отчеты о подготовке и пусках. Обеспечиваем готовность наземного оборудования.
+                        </div>
+                        <div class="job-media media-right">
+                            <img src="./src/soyuz.jpg" height="155px">
+                        </div>
+                    </div>
+    
+                </div>
+                
+                <!-- <article><h3>АО "ЦЭНКИ" - КЦ "Южный"</h3>
+                    С 2011 по 2016 работала специалистом в АО "ЦЭНКИ" - КЦ "Южный". 
+                    <br>Участвовала в запусках РКН «Зенит-2SБ» с аппаратами: "Амос-4" (2013 год) и "Электро-Л № 2" (2015 год)
+                    <br>
+                    <iframe width="280" height="155" src="https://www.youtube.com/embed/h3UOI3OdCfs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe> 
+                </article>
+                
+                <article><h3>БФ АО "РКЦ "Прогресс"</h3>
+                    С 2016 года по н/в работаю в БФ АО "РКЦ "Прогресс". <br>
+                    Разрабатываем планы подготовки изделий, пишем отчеты о подготовке и пусках. <br>
+                    <img src="./src/soyuz_2.jpg" height="350"><br>
+                    Обеспечиваем готовность наземного оборудования. 
+                </article> -->
+            </section>
+
+            
+            
+                    
+                
+        </main>
         
-        <section id="projects"><h2>Проекты</h2>
-            <article><h3>Курсовая</h3>
-                <blockquote cite="https://github.com/Satura/Coursework-IQA">Составлена тестовая документация (чек-лист и тест-кейсы) на
-                    отдельные модули и функциональности тестового сайта </blockquote>
-            </article>
-            <article><h3>Дипломная</h3>
-                <blockquote cite="https://github.com/Satura/DiplomaQA">Проведена автоматизация тестирования учебного комплексного
-                    веб-сервиса, взаимодействующего с СУБД и API Банка.</blockquote>
-            </article>
-            <article><h3>Telegram-бот</h3>
-                <blockquote><ins>Somethings&CosmoBot</ins>
-                    <br>Бот для отображения различной информации о финансах и космонавтике, конвертации валют и прогноза погоды. </blockquote>
-            </article>
-            <article><h3>Анализ датасета</h3>
-                <blockquote>Проект заключается в практической работе с базами данных и языком SQL для исследования данных из открытых источников. В качестве источника выбран датасет LinkedIn Job Postings – 2023.</blockquote>
-            </article>
-        </section>        
-        <hr>
-        
-        <footer>
-            <address id="contacts"> 
-                <a href="https://www.linkedin.com/in/anastasiya-svitavskaya-573a4a248/" target="_blank"><img src="./src/linkedin(1).png" height="32">LinkedIn</a>
-                <a href="https://career.habr.com/svitavskaya_a" target="_blank"><img src="./src/habr(1).svg" height="32">Хабр.Карьера</a> 
-                <a href="mailto:svitavskaya.anastasiya@yandex.ru"><img src="./src/mail.png" height="32">E-mail</a>
-            </address>   
-        
-        </footer>
     </body>
 
 </html>
